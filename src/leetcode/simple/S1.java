@@ -18,9 +18,10 @@ public class S1 {
                 if (!equalChar(stack.peek(), c)){
                     return false;
                 }
+                stack.pop();
             }
         }
-        return true;
+        return stack.size() == 0;
     }
 
     private boolean equalLeft(char a){
