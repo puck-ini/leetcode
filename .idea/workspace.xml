@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c67345c-3bf5-4cd0-b9c4-92d420670942" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/simple/S5.java" afterPath="$PROJECT_DIR$/src/leetcode/simple/S5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/simple/S6.java" afterPath="$PROJECT_DIR$/src/leetcode/simple/S6.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="S6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="440">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -313,12 +313,12 @@
       <updated>1578715666128</updated>
       <workItem from="1578715668616" duration="6776000" />
       <workItem from="1578748607032" duration="4993000" />
-      <workItem from="1578790226957" duration="9991000" />
+      <workItem from="1578790226957" duration="10169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21760000" />
+    <option name="totallyTimeSpent" value="21938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -482,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="440">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>

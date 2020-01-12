@@ -12,12 +12,9 @@ public class S6 {
         int profit = Integer.MIN_VALUE;
         int len = prices.length;
         for (int i = 0; i < len; i++){
-            if (buy > prices[i]){
-                buy = prices[i];
-            }else {
-                profit = prices[i] - buy;
-                result = Math.max(profit,result);
-            }
+            buy = Math.min(buy,prices[i]);
+            profit = prices[i] - buy;
+            result = Math.max(profit,result);
         }
         return result;
     }
