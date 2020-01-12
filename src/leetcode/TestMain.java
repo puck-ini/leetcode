@@ -14,8 +14,15 @@ public class TestMain {
 //        S3 s3 = new S3();
 //        int[] nums = {-21,-3,-4,-1,-2,-1,-5,-4};
 //        System.out.println(s3.maxSubArray(nums));
-        S8 s8 = new S8();
-        String s = "A man, a plan, a canal: Panama";
-        System.out.println(s8.isPalindrome(s));
+//        S8 s8 = new S8();
+//        String s = "A man, a plan, a canal: Panama";
+//        System.out.println(s8.isPalindrome(s));
+        S10 s10 = new S10();
+        s10.push(0);
+        s10.push(1);
+        s10.push(0);
+        s10.getMin();
+        s10.pop();
+        s10.getMin();
     }
 }
