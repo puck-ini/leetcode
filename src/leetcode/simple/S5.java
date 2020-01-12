@@ -58,7 +58,7 @@ public class S5 {
             return 0;
         }
         //用于记录每个节点以及节点的深度
-        //TODO
+        //TODO  LinkedList<Pair<TreeNode, Integer>> stack = new LinkedList<>(); ERROR
         LinkedList<Pair<TreeNode, Integer>> stack = new LinkedList<>();
         stack.push(new Pair<>(root, 1));
         int maxDepth = 0;
