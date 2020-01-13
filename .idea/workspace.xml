@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c67345c-3bf5-4cd0-b9c4-92d420670942" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/simple/S13.java" afterPath="$PROJECT_DIR$/src/leetcode/simple/S13.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,8 +48,8 @@
       <file leaf-file-name="S13.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="521">
+              <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -369,12 +370,12 @@
       <workItem from="1578715668616" duration="6776000" />
       <workItem from="1578748607032" duration="4993000" />
       <workItem from="1578790226957" duration="23945000" />
-      <workItem from="1578877870297" duration="7348000" />
+      <workItem from="1578877870297" duration="7939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43062000" />
+    <option name="totallyTimeSpent" value="43653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
@@ -623,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="521">
+          <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

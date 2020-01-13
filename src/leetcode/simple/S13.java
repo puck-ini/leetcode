@@ -35,8 +35,20 @@ public class S13 {
 //        }
 //        return entry.getKey();
         //3.排序
-        Arrays.sort(nums);
-        return nums[nums.length/2];
+//        Arrays.sort(nums);
+//        return nums[nums.length/2];
+
+        //4.投票算法
+        int count = 0;
+        int candidate  = Integer.MIN_VALUE;
+        for (int num: nums){
+            if (count == 0){
+                candidate = num;
+            }
+            count += (candidate == num)? 1 : -1;
+        }
+        return candidate;
+        //5.分治法
     }
 
 
