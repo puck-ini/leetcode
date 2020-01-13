@@ -48,7 +48,7 @@ public class S13 {
             count += (candidate == num)? 1 : -1;
         }
         return candidate;
-        //5.分治法
+        //5.分治法//TODO
     }
 
 
