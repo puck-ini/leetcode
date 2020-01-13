@@ -1,5 +1,7 @@
 package leetcode.simple;
 
+
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,15 +26,17 @@ public class S13 {
 //        return Integer.MIN_VALUE;
 
         //2.hashmap，通过hashmap保存所有数以及出现次数
-        Map<Integer,Integer> counts = countNum(nums);
-        Map.Entry<Integer,Integer> entry = null;
-        for (Map.Entry<Integer,Integer> entry1: counts.entrySet()){
-            if (entry == null || entry1.getValue() > entry.getValue()){
-                entry = entry1;
-            }
-        }
-        return entry.getKey();
-
+//        Map<Integer,Integer> counts = countNum(nums);
+//        Map.Entry<Integer,Integer> entry = null;
+//        for (Map.Entry<Integer,Integer> entry1: counts.entrySet()){
+//            if (entry == null || entry1.getValue() > entry.getValue()){
+//                entry = entry1;
+//            }
+//        }
+//        return entry.getKey();
+        //3.排序
+        Arrays.sort(nums);
+        return nums[nums.length/2];
     }
 
 
