@@ -2,7 +2,7 @@ package leetcode.simple;
 
 public class S3 {
     public int maxSubArray(int[] nums) {
-        //1. 暴力
+//        //1. 暴力
 //        int len = nums.length;
 //        int max = Integer.MIN_VALUE;
 //        int sum = 0;
@@ -14,7 +14,7 @@ public class S3 {
 //            }
 //        }
 //        return max;
-        //2. 动态规划
+////        2. 动态规划
 //        int len = nums.length;
 //        int dp = nums[0];
 //        int result = dp;
@@ -23,7 +23,7 @@ public class S3 {
 //            result = Math.max(result,dp);
 //        }
 //        return result;
-        //2. 动态规划 数组
+////        2. 动态规划 数组
 //        int len = nums.length;
 //        int[] dp = new int[len];
 //        int result = Integer.MIN_VALUE;
@@ -45,10 +45,6 @@ public class S3 {
             }
         }
         return result;
-
-
         //4. 分治法
-
-
     }
 }

@@ -3,7 +3,7 @@ package leetcode.simple;
 public class S11 {
 
     public int[] twoSum(int[] numbers, int target) {
-        //1.暴力破解
+//        //1.暴力破解
 //        int len = numbers.length;
 //        for (int i = 0; i < len; i++){
 //            if (numbers[i] <= target){

@@ -18,17 +18,17 @@ import java.util.LinkedList;
  */
 public class S5 {
     public int maxDepth(TreeNode root) {
-        //1.判断节点是否为空
-        //2.递归
+//        //1.判断节点是否为空
+//        //2.递归
 //        if (root == null){
 //            return 0;
 //        }
 //        int maxLeftDepth = maxDepth(root.left);
 //        int maxRightDepth = maxDepth(root.right);
 //        return Math.max(maxLeftDepth,maxRightDepth) + 1;
-
-
-        //迭代,BFS层次遍历思想。广度优先算法
+//
+//
+//        //迭代,BFS层次遍历思想。广度优先算法
 //        if (root == null){
 //            return 0;
 //        }
@@ -74,6 +74,5 @@ public class S5 {
             }
         }
         return maxDepth;
-
     }
 }
