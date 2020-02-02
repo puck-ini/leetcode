@@ -26,15 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S21.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="S21.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="433">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#1028#1029#0" expanded="true" />
                 <element signature="e#1087#1088#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S22.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/simple/S11.java" />
         <option value="$PROJECT_DIR$/src/leetcode/test/Test1.java" />
         <option value="$PROJECT_DIR$/src/leetcode/simple/S21.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/simple/S22.java" />
       </list>
     </option>
   </component>
@@ -377,12 +388,12 @@
       <workItem from="1579010638207" duration="674000" />
       <workItem from="1580561996480" duration="3344000" />
       <workItem from="1580638393163" duration="642000" />
-      <workItem from="1580646792782" duration="2590000" />
+      <workItem from="1580646792782" duration="3468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64062000" />
+    <option name="totallyTimeSpent" value="64940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
@@ -724,12 +735,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="433">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#1028#1029#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/simple/S22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
