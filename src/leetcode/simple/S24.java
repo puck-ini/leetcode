@@ -13,5 +13,9 @@ public class S24 {
 //        }
 //        return true;
 
+        //数学运算
+        return (num > 0) && (Math.log(num) / Math.log(2) % 2 == 0);
+
+        //位运算
     }
 }
