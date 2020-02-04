@@ -1,6 +1,6 @@
 package leetcode.simple;
 
-import leetcode.simple.datatype.TreeNode;
+import leetcode.datatype.TreeNode;
 
 public class S26 {
     public int pathSum(TreeNode root, int sum) {

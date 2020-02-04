@@ -1,8 +1,6 @@
 package leetcode.simple;
 
-import leetcode.simple.datatype.ListNode;
-
-import java.util.List;
+import leetcode.datatype.ListNode;
 
 /**
  * Definition for singly-linked list.

@@ -1,4 +1,4 @@
-package leetcode.simple.datatype;
+package leetcode.datatype;
 
 public class ListNode {
     public int val;

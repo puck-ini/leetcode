@@ -3,7 +3,7 @@ package leetcode.simple;
 
 
 import javafx.util.Pair;
-import leetcode.simple.datatype.TreeNode;
+import leetcode.datatype.TreeNode;
 
 import java.util.LinkedList;
 
