@@ -6,6 +6,7 @@ public class M1 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode cur = new ListNode(0);
         ListNode l3 = cur;
+        //进位
         int carry = 0;
         while (l1 != null || l2 != null){
             int x = l1 == null ? 0:l1.val;
