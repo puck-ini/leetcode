@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.mid.LengthOfLIS;
 import leetcode.mid.M2;
 import leetcode.simple.*;
 
@@ -25,7 +26,9 @@ public class TestMain {
 //        s10.getMin();
 //        s10.pop();
 //        s10.getMin();
-        M2 m2 = new M2();
-        System.out.println(m2.lengthOfLongestSubstring("cabcde"));
+//        M2 m2 = new M2();
+//        System.out.println(m2.lengthOfLongestSubstring("cabcde"));
+        LengthOfLIS lengthOfLIS = new LengthOfLIS();
+        lengthOfLIS.lengthOfLIS(new int[]{-2,-1});
     }
 }
