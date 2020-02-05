@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.mid.M2;
 import leetcode.simple.*;
 
 public class TestMain {
@@ -17,12 +18,14 @@ public class TestMain {
 //        S8 s8 = new S8();
 //        String s = "A man, a plan, a canal: Panama";
 //        System.out.println(s8.isPalindrome(s));
-        S10 s10 = new S10();
-        s10.push(0);
-        s10.push(1);
-        s10.push(0);
-        s10.getMin();
-        s10.pop();
-        s10.getMin();
+//        S10 s10 = new S10();
+//        s10.push(0);
+//        s10.push(1);
+//        s10.push(0);
+//        s10.getMin();
+//        s10.pop();
+//        s10.getMin();
+        M2 m2 = new M2();
+        System.out.println(m2.lengthOfLongestSubstring("cabcde"));
     }
 }
