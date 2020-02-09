@@ -10,10 +10,12 @@ public class M7 {
         while (curr.next != null && curr.next.next != null){
             ListNode first = curr.next;
             ListNode second = curr.next.next;
+            //************************
             curr.next = second;
             first.next = second.next;
             second.next = first;
             curr = first;
+            //************************
         }
         return dummy.next;
     }
