@@ -1,5 +1,10 @@
 package leetcode.sort;
 
+
+/**
+ * 选择排序
+ * 从数组中选择最小的数插入数组最前端
+ */
 public class SelectSort {
 
     public static void  sort(int[] nums){
