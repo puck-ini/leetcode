@@ -21,12 +21,14 @@ public class QuickSort {
         int pivot = nums[startIndex];
 
         while (left < right){
-            while (pivot >= nums[left] && left < right){
-                left++;
-            }
 
+            //先判断右边在判断左边
+            //如果先判断左边再判断右边结果会出错
             while (pivot < nums[right] && left < right){
                 right--;
+            }
+            while (pivot >= nums[left] && left < right){
+                left++;
             }
             if (left < right){
                 int temp = nums[left];
