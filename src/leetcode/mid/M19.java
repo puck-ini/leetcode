@@ -10,19 +10,33 @@ public class M19 {
     private class  Interval{
         public int start;
         public int end;
+
+        Interval(int[] interval) {
+            this.start = interval[0];
+            this.end = interval[1];
+        }
+
+        int[] toArray() {
+            return new int[]{this.start, this.end};
+        }
     }
     private class IntervalComparator implements Comparator<Interval>{
 
         @Override
-        public int compare(Interval o1, Interval o2) {
-            return o1.start < o2.start ? -1 : o1.start == o2.start ? 0 : 1;
+        public int compare(Interval a, Interval b) {
+            return Integer.compare(a.start, b.start);
         }
 
     }
-    public List<Interval> merge(List<Interval> intervals) {
-        Collections.sort(intervals,new IntervalComparator());
-        LinkedList<Interval> merged = new LinkedList<Interval>();
-        for (Interval interval : intervals) {
+    public int[][] merge(int[][] intervals) {
+        List<Interval> intervalsList = new LinkedList<>();
+        for (int[] interval : intervals) {
+            intervalsList.add(new Interval(interval));
+        }
+        intervalsList.sort(new IntervalComparator());
+
+        LinkedList<Interval> merged = new LinkedList<>();
+        for (Interval interval : intervalsList) {
             // if the list of merged intervals is empty or if the current
             // interval does not overlap with the previous, simply append it.
             if (merged.isEmpty() || merged.getLast().end < interval.start) {
@@ -34,6 +48,13 @@ public class M19 {
                 merged.getLast().end = Math.max(merged.getLast().end, interval.end);
             }
         }
-        return merged;
+
+        int i = 0;
+        int[][] result = new int[merged.size()][2];
+        for (Interval mergedInterval : merged) {
+            result[i] = mergedInterval.toArray();
+            i++;
+        }
+        return result;
     }
 }
