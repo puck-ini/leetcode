@@ -72,6 +72,5 @@ public class HeapSort {
             //继续下沉
             sink(nums, present, len);
         }
-
     }
 }
