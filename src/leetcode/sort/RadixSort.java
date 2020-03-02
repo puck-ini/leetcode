@@ -6,7 +6,6 @@ public class RadixSort {
 
     public static void radixSort(int[] nums){
         int len = nums.length;
-
         //最大值
         int max = nums[0];
         for (int i = 0; i < len; i++){
@@ -14,24 +13,19 @@ public class RadixSort {
                 max = nums[i];
             }
         }
-
         //当前排序位置
         int location = 1;
-
         //桶排序
         ArrayList<ArrayList<Integer>> bucketList = new ArrayList<>();
-
         //长度为10装入余数0-9的数据
         for (int i = 0; i < 10; i++){
             bucketList.add(new ArrayList<>());
         }
-
         while (true){
             int dd = (int)Math.pow(10,(location - 1));
             if (max < dd){
                 break;
             }
-
             //数据入桶
             for (int i = 0; i < len; i++){
                 //计算余数放入相应的桶
