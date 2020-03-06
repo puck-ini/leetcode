@@ -28,36 +28,59 @@ public class MergerSort {
         merger(nums,tempArr,startIndex,midIndex,endIndex);
 
     }
-
-    private static void merger(int[] nums, int[] tempArr, int startIndex, int midIndex, int endIndex){
-        //复制要归并的数据
-        for (int i = startIndex; i <= endIndex; i++){
-            tempArr[i] = nums[i];
-        }
-        //左边首位下标
-        int left = startIndex;
-        //右边首位下标
-        int right = midIndex + 1;
-        for (int i = startIndex;i <= endIndex; i++){
-            if (left > midIndex){
-                //如果左边的首位下标大于中部下表，证明左边的数据已经排完
-                nums[i] = tempArr[right++];
-            }else if (right > endIndex){
-                //如果右边的首位下表大于了数组长度，证明右边的数据已经排完
-                nums[i] = tempArr[left++];
-            }else if (tempArr[right] < tempArr[left]){
-                //将右边的首位排入，然后右边的指针+1
-                nums[i] = tempArr[right++];
+    private static void merger(int[] arr,int[] temp,int left,int mid,int right){
+        int i = left;//左序列指针
+        int j = mid+1;//右序列指针
+        int t = 0;//临时数组指针
+        while (i<=mid && j<=right){
+            if(arr[i]<=arr[j]){
+                temp[t++] = arr[i++];
             }else {
-                //将左边的首位排入，然后左边的指针+1
-                nums[i] = tempArr[left++];
-                //left++;
+                temp[t++] = arr[j++];
             }
+        }
+        while(i<=mid){//将左边剩余元素填充进temp中
+            temp[t++] = arr[i++];
+        }
+        while(j<=right){//将右序列剩余元素填充进temp中
+            temp[t++] = arr[j++];
+        }
+        t = 0;
+        //将temp中的元素全部拷贝到原数组中
+        while(left <= right){
+            arr[left++] = temp[t++];
         }
     }
 
+//    private static void merger(int[] nums, int[] tempArr, int startIndex, int midIndex, int endIndex){
+//        //复制要归并的数据
+//        for (int i = startIndex; i <= endIndex; i++){
+//            tempArr[i] = nums[i];
+//        }
+//        //左边首位下标
+//        int left = startIndex;
+//        //右边首位下标
+//        int right = midIndex + 1;
+//        for (int i = startIndex;i <= endIndex; i++){
+//            if (left > midIndex){
+//                //如果左边的首位下标大于中部下表，证明左边的数据已经排完
+//                nums[i] = tempArr[right++];
+//            }else if (right > endIndex){
+//                //如果右边的首位下表大于了数组长度，证明右边的数据已经排完
+//                nums[i] = tempArr[left++];
+//            }else if (tempArr[right] < tempArr[left]){
+//                //将右边的首位排入，然后右边的指针+1
+//                nums[i] = tempArr[right++];
+//            }else {
+//                //将左边的首位排入，然后左边的指针+1
+//                nums[i] = tempArr[left++];
+//                //left++;
+//            }
+//        }
+//    }
+
     public static void main(String[] args) {
-        int[] nums = new int[]{2,5,2,3,4,1,8};
+        int[] nums = new int[]{2,5,2,1};
         sort(nums);
         for (int num: nums){
             System.out.println(num);

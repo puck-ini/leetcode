@@ -23,7 +23,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{8,5,6,2,1,3};
+        int[] nums = new int[]{8,5,6,2,2,1,3};
         int[] nums1 = new BubbleSort().bubbleSort(nums);
         for (int i : nums1){
             System.out.println(i);
